@@ -1,0 +1,225 @@
+/*
+	@theme Wind Wheel
+	@author Maurice Kühlborn, www.minimalweb.de
+	@override-placeholders html, css, js, php
+*/
+
+@base {
+	color: #e8e6d6;
+	background-color: #251e1b;
+	insertion-point-color: #e8e6d6;
+	selection-background-color: #3f4d5b;
+	current-line-background-color: #2d2b25;
+}
+
+comment,
+comment>punctuation {
+	color: #555;
+	font-style: italic;
+}
+
+tag.doctype, tag.doctype > *,
+tag.doctype > string.quoted {
+  color: #dd91e5;
+}
+
+string.quoted {
+  color: #ff509d;
+}
+
+string.quoted > escape {
+  font-style: italic;
+}
+
+storage.type, integral, variable, literal.keyword {
+  color: #97b66f;
+}
+
+operator {
+  color: #e8e6d6;
+}
+
+open-bracket, close-bracket, brace, paranthesis {
+  color: #e8e6d6;
+}
+
+boolean.false {
+  color: #cc3500;
+}
+
+boolean.true {
+  color: #71c71d;
+}
+
+identifier.function {
+	color: #659ca2;
+}
+
+support.constant.dom {
+	color: #fc9218;
+}
+
+keyword.control {
+  color: #8299d4;
+}
+
+function {
+	color: #c2af9d;
+}
+
+function > name, support.function {
+	color: #ffed77;
+}
+
+support.function, function-call {}
+
+class {
+	color: #8299d4;
+}
+
+symbol.name, literal.keyword.constant, keyword.constant {
+	color: #dd91e5;
+}
+
+
+/* HTML */
+
+tag, source, sourcecode {
+	spell-check: disabled;
+}
+
+tag, tag > string > punctuation {
+	color: #8299d4;
+}
+
+tag > name {}
+
+attribute-name, punctuation.definition.tag {}
+
+html attribute-name {
+	color: #afd6de;
+}
+
+tag > string.quoted, tag > attribute-with-value > string.quoted {
+	color: #ff509d;
+}
+
+tag > string > punctuation {}
+
+embedded.source,
+embedded.sourcecode,
+embedded {
+	background-color: #1c1715;
+}
+
+constant.character.entity {
+	color: #bfab97;
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
+
+
+/* CSS */
+
+css property-name,
+sass selector,
+css function.misc {
+	color: #ffed77;
+	color: #947e68;
+}
+
+css property-value,
+sass property.named,
+sass mixin, css support.function {
+	color: #659ca2;
+}
+
+css variable.parameter.misc {
+	color: #dd91e5;
+}
+
+
+css.selector,
+css.selector > entity > punctuation,
+sass selector.named,
+sass selector.id,
+sass selector.class {
+	color: #8299d4;
+}
+
+css.id.selector {
+	color: #fc9218;
+}
+
+css.class.selector {
+	color: #ff509d;
+}
+
+css.pseudo.class.selector {
+	color: #97b66f;
+}
+
+css property-list > property-name {}
+css property-list > property-value {}
+
+css keyword.important {
+	color: #e63333;
+}
+
+css nzumeric {
+	color: #f3ecce;
+}
+
+css zunit {
+	color: #947e68;
+}
+
+css rgb-value {
+	color: #ffed77;
+}
+
+css property-list.block {
+	color: #e8e6d6;
+}
+
+css.at-rule string,
+css.at-rule string punctuation,
+media.css > block > punctuation,
+property-list.css > property-value > punctuation {
+	color: #e8e6d6;
+}
+
+css.embedded attribute-name,
+css.embedded punctuation.definition.tag {}
+
+
+/* PHP */
+
+php keyword.definition {
+	color: #907954;
+}
+
+php delimiter.embedded.source, php delimiter.embedded.source.php.begin, php keyword.definition.php {
+  color: #fc9218;
+}
+
+
+/* JavaScript */
+
+sourcecode.js {
+	color: #947e68;
+}
+
+js brace {
+	color: #f3ecce;
+}
+
+
+/* Ruby */
+
+embedded.ruby { color: #ae2837; }
+
+
