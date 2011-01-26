@@ -1,1 +1,1 @@
-![Screenshot](http:/projekte.minimalweb.de/MWB/wind-wheel-theme.png)
+![Screenshot](https://github.com/minimalweb/Wind-Wheel-Theme-for-Espresso/raw/master/screenshot.png)
