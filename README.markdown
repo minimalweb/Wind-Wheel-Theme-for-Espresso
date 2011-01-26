@@ -1,1 +1,1 @@
-![Screenshot](screenshot.png)
+![Screenshot](http:/projekte.minimalweb.de/MWB/wind-wheel-theme.png)
