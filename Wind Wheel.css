@@ -202,7 +202,7 @@ php keyword.definition {
 	color: #907954;
 }
 
-php delimiter.embedded.source, php delimiter.embedded.source.php.begin, php keyword.definition.php {
+php delimiter.source, php delimiter.source, php delimiter keyword.definition {
   color: #fc9218;
 }
 
